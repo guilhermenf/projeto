@@ -1,28 +1,9 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+‪#‎include‬ <stdio.h>
+int main(){
+int i, j;
+printf("Informe dois numeros (cada um sendo 0 ou 1): ");
+scanf("%d%d", &i, &j);
+printf("%d AND %d eh %d\n", i,j, i && j);
+printf("%d OR %d eh %d\n", i,j, i || j);
+printf("NOT %d eh %d\n", i, !i);
+}
